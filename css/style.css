@@ -1613,6 +1613,11 @@ a.video-button i {
     margin-top: 40px;
 }
 
+.warning {
+    color: #D7AD5F;
+    margin-bottom: 20px;
+}
+
 /*-----  End of certifications  ------*/
 
 
@@ -1778,7 +1783,7 @@ a.video-button i {
     overflow: hidden;
     background-color: #483729;
     color: #dedee2;
-    padding: 40px 0 20px 0;
+    padding: 5px 0 20px 0;
 }
 
 .footerorta {
@@ -1862,24 +1867,6 @@ a.video-button i {
     display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .solgarcontent {
     width: 80%;
     margin-left: 10%;
@@ -1893,8 +1880,6 @@ a.video-button i {
 }
 
 .solgartab {
-    /*    width: 80%;
-    margin-left: 10%;*/
     margin-top: 25px;
     margin-bottom: 35px;
 }
@@ -2365,4 +2350,8 @@ a.video-button i {
 
 .right {
     float: right
+}
+
+.fa-brands:hover {
+    color: #D7AD5F;
 }
