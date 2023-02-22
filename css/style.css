@@ -1613,11 +1613,15 @@ a.video-button i {
     margin-top: 40px;
 }
 
+.img-responsive {
+    margin: auto;
+}
+
 /*-----  TABLE-info  ------*/
 .table {
-    margin-top: 40px;
+    margin-top: 80px;
     border-collapse: collapse;
-    width: 850px;
+    max-width: 850px;
 }
 
 .table td {
@@ -1645,14 +1649,13 @@ a.video-button i {
     flex: 1 1 auto;
 }
 
-.table-highline {
-    padding: 4px;
+.table-upline {
     height: 60px;
     background-color: #fff6e8;
+    line-height: 18px;
 }
 
 .table-bottomline {
-    padding: 4px;
     height: 100px;
     background-color: #c7a566;
     color: #483729;
@@ -1660,10 +1663,23 @@ a.video-button i {
     line-height: 18px
 }
 
-@media (max-width: 600px) {
+.table-upline td {
+    padding: 4px;
+}
+
+.table-bottomline td {
+    padding: 4px;
+}
+
+.table-top-last {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+@media (max-width: 768px) {
     .table {
         font-size: 12px;
-        width: 480px;
+        max-width: 580px;
     }
 
     .table-bottomline-text {
@@ -1671,9 +1687,19 @@ a.video-button i {
         line-height: 12px !important;
     }
 
+    .table-top-subs {
+        display: none;
+    }
+
     .table-top-img {
         display: none;
     }
+
+    .table-wrapper h5 {
+        font-size: 11px;
+        line-height: 10px;
+    }
+
 }
 
 @media (max-width: 991px) {
