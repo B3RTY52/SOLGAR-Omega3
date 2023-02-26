@@ -395,7 +395,7 @@ textarea:focus {
 }
 
 .bannerbg {
-    background: url(../img/banner.jpg);
+    background: url(../img/banner-2.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -527,6 +527,10 @@ textarea:focus {
         position: absolute;
         top: 0%;
         padding: 2px;
+    }
+
+    .banner-bg-text {
+        display: none !important;
     }
 
     .our-features .ortapart {
@@ -685,7 +689,7 @@ textarea:focus {
 }
 
 .tel-button:hover span {
-    transform: scale(1.07);
+    font-size: 15px;
 }
 
 .tel-button:hover {
@@ -693,7 +697,6 @@ textarea:focus {
 }
 
 .tel-button:hover img {
-    /* transform: scale(1.1); */
     height: 55px;
     box-sizing: border-box;
 }
@@ -1640,7 +1643,8 @@ a.video-button i {
 
 .table-wrapper h5 {
     display: inline-block;
-    height: 40px;
+    height: 45px;
+    margin-bottom: 6px;
 }
 
 .table-top-img {
@@ -1691,12 +1695,13 @@ a.video-button i {
         display: none;
     }
 
+    .extras,
     .table-top-img {
         display: none;
     }
 
-    .table-wrapper h5 {
-        font-size: 11px;
+    .table h5 {
+        font-size: 10px;
         line-height: 10px;
     }
 
@@ -1707,14 +1712,54 @@ a.video-button i {
         font-size: 12px;
         line-height: 10px;
     }
+
+    .banner-bg-animation {
+        display: none !important;
+    }
 }
 
 /*-----  end of TABLE-info  ------*/
 
 
+
+/*----- ANIMATION-FISHES -----*/
+.bannerbg h1 {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.bannerbg span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.banner-bg-animation {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bannerbg-animation-frames {
+    width: 33.3%;
+    height: 50%;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.banner-bg-animation-img {
+    width: 100%;
+}
+
+/*----- end of ANIMATION-FISHES -----*/
+
 .warning {
     color: #D7AD5F;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 /*-----  End of certifications  ------*/
@@ -2284,6 +2329,11 @@ a.video-button i {
     .order-now .left-part img {
         width: 80%;
     }
+
+    .catalog p,
+    h3 {
+        line-height: 19px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2347,9 +2397,15 @@ a.video-button i {
     .parallaxColor p {
         text-align: center !important;
     }
+
+    .last-child {
+        margin-left: 25%;
+    }
+
+    .warning {
+        font-size: 18px;
+    }
 }
-
-
 
 @media (max-height: 600px) {
     .show-menu .navbar.menu-wrap {
@@ -2357,6 +2413,9 @@ a.video-button i {
         overflow-y: scroll;
     }
 
+    .warning {
+        font-size: 16px;
+    }
 }
 
 .border {
