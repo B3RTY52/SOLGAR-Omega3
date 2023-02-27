@@ -1695,15 +1695,17 @@ a.video-button i {
         display: none;
     }
 
+    .img,
     .extras,
     .table-top-img {
-        display: none;
+        display: none !important;
     }
 
     .table h5 {
         font-size: 10px;
         line-height: 10px;
     }
+
 
 }
 
