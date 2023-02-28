@@ -1738,18 +1738,50 @@ a.video-button i {
     font-weight: 700;
 }
 
-.banner-bg-animation {
+/* .banner-bg-animation {
     height: 70%;
     width: 100%;
     display: flex;
     align-items: center;
-}
+} */
 
-.bannerbg-animation-frames {
+/* .bannerbg-animation-frames {
     width: 33.3%;
     height: 50%;
     overflow: hidden;
     margin-top: 1%;
+} */
+
+.banner-bg-animation-2 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerbg-animation-frames-2 {
+    width: 25%;
+    height: 30%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+
+.fish-1 {
+    transform: rotate(4deg);
+}
+
+.fish-2 {
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.fish-3 {
+    margin-left: 5%;
+    margin-top: 8%;
+    transform: rotate(4deg);
 }
 
 .banner-bg-animation-img {
