@@ -627,7 +627,7 @@ textarea:focus {
 
 
 .tel-button {
-    width: 250px;
+    max-width: 250px;
     background-color: #ffffff;
     text-transform: uppercase;
     padding: 5px 20px;
@@ -1616,20 +1616,26 @@ a.video-button i {
     margin-top: 40px;
 }
 
-.img-responsive {
+.img-info {
     margin: auto;
+    margin-bottom: 40px;
 }
 
 /*-----  TABLE-info  ------*/
+.table-pack {
+    margin: 0 auto;
+}
+
 .table {
     margin-top: 80px;
     border-collapse: collapse;
     max-width: 850px;
+    min-width: 630px;
 }
 
 .table td {
     border: 3px solid #ffffff;
-    width: 16.66%;
+    width: 14.28%;
     text-align: center;
 }
 
@@ -1681,9 +1687,13 @@ a.video-button i {
 }
 
 @media (max-width: 768px) {
+    .table-pack {
+        max-width: 580px;
+    }
+
     .table {
         font-size: 12px;
-        max-width: 580px;
+        /* max-width: 580px; */
     }
 
     .table-bottomline-text {
@@ -1717,6 +1727,10 @@ a.video-button i {
 
     .banner-bg-animation {
         display: none !important;
+    }
+
+    .table-pack {
+        overflow: auto;
     }
 }
 
