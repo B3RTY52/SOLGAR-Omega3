@@ -1693,7 +1693,6 @@ a.video-button i {
 
     .table {
         font-size: 12px;
-        /* max-width: 580px; */
     }
 
     .table-bottomline-text {
@@ -1752,32 +1751,17 @@ a.video-button i {
     font-weight: 700;
 }
 
-/* .banner-bg-animation {
-    height: 70%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-} */
-
-/* .bannerbg-animation-frames {
-    width: 33.3%;
-    height: 50%;
-    overflow: hidden;
-    margin-top: 1%;
-} */
-
 .banner-bg-animation-2 {
     height: 50%;
     width: 100%;
     position: relative;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
 }
 
 .bannerbg-animation-frames-2 {
     width: 25%;
     height: 30%;
-    overflow: hidden;
     position: absolute;
     z-index: 0;
     display: none;
@@ -1796,10 +1780,6 @@ a.video-button i {
     margin-left: 5%;
     margin-top: 8%;
     transform: rotate(4deg);
-}
-
-.banner-bg-animation-img {
-    width: 100%;
 }
 
 /*----- end of ANIMATION-FISHES -----*/
