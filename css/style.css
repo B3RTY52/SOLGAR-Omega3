@@ -458,143 +458,6 @@ textarea:focus {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .margintopN {
-        margin-top: -120px !important;
-    }
-
-    .social-icon ul {
-        text-align: center
-    }
-
-    .contact-form {
-        padding-top: 30px;
-    }
-
-    .social-icon ul {
-        text-align: center
-    }
-
-    .order-button {
-        font-size: 11px;
-    }
-
-    .page-header span {
-        margin-bottom: 0 !important
-    }
-
-    .order-now .left-part img {
-        width: 60% !important
-    }
-
-    .our-features .each-part h3.title {
-        font-size: 20px !important
-    }
-
-    .buttonGoPro {
-        padding: 7px 17px !important;
-        width: 120px !important;
-    }
-
-    .solgartab {
-        width: 100% !important;
-        margin-left: 0px !important
-    }
-
-    .content-img {
-        width: 100% !important
-    }
-
-    .content-text {
-        width: auto !important
-    }
-
-    .content-item {
-        width: auto !important
-    }
-
-    .logoSolgar {
-        text-align: center;
-    }
-
-    .bannerbg {
-        background: url(../img/banner-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        position: absolute;
-        top: 0%;
-        padding: 2px;
-    }
-
-    .banner-bg-text {
-        display: none !important;
-    }
-
-    .our-features .ortapart {
-        text-align: left !important;
-    }
-
-    .our-features .ortapart img {
-        display: inline-block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .right {
-        float: none !important
-    }
-
-    .butslg {
-        font-size: 11px !important;
-    }
-
-    .our-features .each-part h3.title {
-        font-size: 16px !important;
-    }
-
-    .our-features .each-part {
-        padding: 0px !important
-    }
-
-    .order-now .left-part img {
-        width: 65% !important;
-    }
-
-    .order-now .right-part .title h4 {
-        font-size: 20px;
-    }
-
-    .buttonGo {
-        width: 140px !important;
-        padding: 10px !important
-    }
-
-    .contact-form p {
-        font-size: 18px;
-        padding: 0 20px;
-    }
-
-    .order-now .right-part .title h4 {
-        font-size: 22px !important;
-    }
-
-    .order-now .left-part img {
-        width: 65% !important
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .modal:before {
-        display: inline-block;
-        vertical-align: middle;
-        content: " ";
-        height: 100%;
-    }
-}
-
 .modal-dialog {
     display: inline-block;
     text-align: left;
@@ -1686,52 +1549,6 @@ a.video-button i {
     line-height: 12px;
 }
 
-@media (max-width: 768px) {
-    .table-pack {
-        max-width: 580px;
-    }
-
-    .table {
-        font-size: 12px;
-    }
-
-    .table-bottomline-text {
-        text-align: start !important;
-        line-height: 12px !important;
-    }
-
-    .table-top-subs {
-        display: none;
-    }
-
-    .img,
-    .extras {
-        display: none !important;
-    }
-
-    .table h5 {
-        font-size: 10px;
-        line-height: 10px;
-    }
-
-
-}
-
-@media (max-width: 991px) {
-    .table-top-last {
-        font-size: 12px;
-        line-height: 10px;
-    }
-
-    .banner-bg-animation {
-        display: none !important;
-    }
-
-    .table-pack {
-        overflow: auto;
-    }
-}
-
 /*-----  end of TABLE-info  ------*/
 
 
@@ -2352,99 +2169,6 @@ a.video-button i {
     margin-top: -40px;
 }
 
-@media (max-width: 1200px) {
-    .order-now .left-part img {
-        width: 80%;
-    }
-
-    .catalog p,
-    h3 {
-        line-height: 19px;
-    }
-}
-
-@media (max-width: 991px) {
-    .paddingLeftRight {
-        padding: 0 10px;
-    }
-
-    .paddingLeftRight .page-header {
-        margin-top: 10px;
-        margin-bottom: 0px
-    }
-
-    .marginBottom {
-        margin-bottom: 0px !important;
-    }
-
-    .our-features .right-part .each-part p:before {
-        content: "";
-        position: absolute;
-        left: -13px;
-        bottom: 4px;
-        height: 35px;
-        width: 5px;
-        background-color: #f8440d;
-        border-radius: 2.5px;
-    }
-
-    .subscribe-form .color-overlay {
-        padding: 0 10px;
-        padding-bottom: 0px;
-        overflow: hidden;
-    }
-
-    .subscribe-form .page-header {
-        margin: 0px 0 30px 0;
-    }
-
-    .order-now {
-        padding-top: 0px;
-        position: relative;
-    }
-
-    .subscribe-form .page-header .subtitle {
-        text-align: left;
-    }
-
-    .subscribe-form .page-header h2 {
-        font-weight: normal;
-        color: #493729;
-        text-align: left;
-    }
-
-    .tab-title {
-        text-align: left;
-    }
-
-    .parallaxColor h2 {
-        text-align: center !important;
-    }
-
-    .parallaxColor p {
-        text-align: center !important;
-    }
-
-    .last-child {
-        margin-left: 25%;
-    }
-
-    .warning {
-        font-size: 18px;
-    }
-}
-
-@media (max-height: 600px) {
-    .show-menu .navbar.menu-wrap {
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-
-    .warning {
-        font-size: 16px;
-    }
-}
-
 .border {
     border: 1px solid red;
 }
@@ -2540,4 +2264,297 @@ a.video-button i {
 
 .fa-brands:hover {
     color: #D7AD5F;
+}
+
+@media (max-width: 1200px) {
+    .order-now .left-part img {
+        width: 80%;
+    }
+
+    .catalog p,
+    h3 {
+        line-height: 19px;
+    }
+
+    .bannerbg-animation-frames-2 {
+        width: 285px;
+        height: 27%;
+    }
+}
+
+@media (max-width: 991px) {
+    .paddingLeftRight {
+        padding: 0 10px;
+    }
+
+    .paddingLeftRight .page-header {
+        margin-top: 10px;
+        margin-bottom: 0px
+    }
+
+    .marginBottom {
+        margin-bottom: 0px !important;
+    }
+
+    .our-features .right-part .each-part p:before {
+        content: "";
+        position: absolute;
+        left: -13px;
+        bottom: 4px;
+        height: 35px;
+        width: 5px;
+        background-color: #f8440d;
+        border-radius: 2.5px;
+    }
+
+    .subscribe-form .color-overlay {
+        padding: 0 10px;
+        padding-bottom: 0px;
+        overflow: hidden;
+    }
+
+    .subscribe-form .page-header {
+        margin: 0px 0 30px 0;
+    }
+
+    .order-now {
+        padding-top: 0px;
+        position: relative;
+    }
+
+    .subscribe-form .page-header .subtitle {
+        text-align: left;
+    }
+
+    .subscribe-form .page-header h2 {
+        font-weight: normal;
+        color: #493729;
+        text-align: left;
+    }
+
+    .tab-title {
+        text-align: left;
+    }
+
+    .parallaxColor h2 {
+        text-align: center !important;
+    }
+
+    .parallaxColor p {
+        text-align: center !important;
+    }
+
+    .last-child {
+        margin-left: 25%;
+    }
+
+    .warning {
+        font-size: 18px;
+    }
+
+    .table-top-last {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .banner-bg-animation {
+        display: none !important;
+    }
+
+    .table-pack {
+        overflow: auto;
+    }
+
+    .bannerbg-animation-frames-2 {
+        width: 260px;
+        height: 23%;
+    }
+}
+
+@media (max-height: 600px) {
+    .show-menu .navbar.menu-wrap {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .warning {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .table-pack {
+        max-width: 580px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .table-bottomline-text {
+        text-align: start !important;
+        line-height: 12px !important;
+    }
+
+    .table-top-subs {
+        display: none;
+    }
+
+    .img,
+    .extras {
+        display: none !important;
+    }
+
+    .table h5 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .banner-bg-text {
+        margin-bottom: 30px !important;
+        ;
+    }
+
+    .bannerbg-animation-frames-2 {
+        width: 200px;
+        height: 18%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .margintopN {
+        margin-top: -120px !important;
+    }
+
+    .social-icon ul {
+        text-align: center
+    }
+
+    .contact-form {
+        padding-top: 30px;
+    }
+
+    .social-icon ul {
+        text-align: center
+    }
+
+    .order-button {
+        font-size: 11px;
+    }
+
+    .page-header span {
+        margin-bottom: 0 !important
+    }
+
+    .order-now .left-part img {
+        width: 60% !important
+    }
+
+    .our-features .each-part h3.title {
+        font-size: 20px !important
+    }
+
+    .buttonGoPro {
+        padding: 7px 17px !important;
+        width: 120px !important;
+    }
+
+    .solgartab {
+        width: 100% !important;
+        margin-left: 0px !important
+    }
+
+    .content-img {
+        width: 100% !important
+    }
+
+    .content-text {
+        width: auto !important
+    }
+
+    .content-item {
+        width: auto !important
+    }
+
+    .logoSolgar {
+        text-align: center;
+    }
+
+    .bannerbg {
+        background: url(../img/banner-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: absolute;
+        top: 0%;
+        padding: 2px;
+    }
+
+    .our-features .ortapart {
+        text-align: left !important;
+    }
+
+    .our-features .ortapart img {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right {
+        float: none !important
+    }
+
+    .butslg {
+        font-size: 11px !important;
+    }
+
+    .our-features .each-part h3.title {
+        font-size: 16px !important;
+    }
+
+    .our-features .each-part {
+        padding: 0px !important
+    }
+
+    .order-now .left-part img {
+        width: 65% !important;
+    }
+
+    .order-now .right-part .title h4 {
+        font-size: 20px;
+    }
+
+    .buttonGo {
+        width: 140px !important;
+        padding: 10px !important
+    }
+
+    .contact-form p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .order-now .right-part .title h4 {
+        font-size: 22px !important;
+    }
+
+    .order-now .left-part img {
+        width: 65% !important
+    }
+
+    .bannerbg-animation-frames-2 {
+        width: 120px;
+        height: 12%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
 }
