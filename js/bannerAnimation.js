@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     transform: `translateX(${-fishesWidth * 2}px)`,
                 },
                 {
-                    transform: `translateX(${fishesWidth * 4}px)`,
+                    transform: `translateX(${window.innerWidth + fishesWidth}px)`,
                 },
             ], {
-                duration: 25000,
+                duration: 30000,
                 iterations: Infinity
             });
         }

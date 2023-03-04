@@ -1705,8 +1705,7 @@ a.video-button i {
     }
 
     .img,
-    .extras,
-    .table-top-img {
+    .extras {
         display: none !important;
     }
 
@@ -1760,7 +1759,7 @@ a.video-button i {
 }
 
 .bannerbg-animation-frames-2 {
-    width: 25%;
+    width: 300px;
     height: 30%;
     position: absolute;
     z-index: 0;
