@@ -1387,9 +1387,9 @@ a.video-button i {
     z-index: 10;
 }
 
-.order-now .left-part img {
-    /*margin-left: -105px*/
-}
+/* .order-now .left-part img {
+    margin-left: -105px
+} */
 
 .order-now .gradient {
     top: 40%;
